@@ -1,0 +1,17 @@
+body {
+     font-family: 'Text Me One', sans-serif;
+     font-weight: bold;
+     
+}
+
+p  {
+    line-height:1.5em;
+}
+
+h1,
+h2 { 
+    font-family: Times New Roman;
+    font-weight:normal;
+    font-variant: small-caps;
+    
+}
