@@ -4,7 +4,9 @@ html {
        background-repeat: repeat;
 }
 
-body {
+
+
+ body {
      font-family: 'Text me one', sans-serif;
      font-weight: bold;
      width: 60%;
@@ -48,4 +50,36 @@ blockquote {
           text-align:center;
 
 }
+
+a:link {
+color:#FFFFFF;
+text-decoration:none;
+}    
+
+a:visited {
+color:#FFFFFF;
+text-decoration:none;
+} 
+
+a:hover {
+color:#FFFFFF;
+text-decoration:none;
+}   
+
+a:active {
+color:#FFFFFF;
+text-decoration:none;
+}  
+
+#nav ul {
+
+font-family: 'Days One', sans-serif;
+font-weight:bold;
+font-size:20px;
+list-style-type:none;
+position:absolute;
+top:5px;
+margin-left:58%
+}
+
 
