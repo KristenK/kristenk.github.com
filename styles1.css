@@ -1,0 +1,247 @@
+/*
+ * Default styles
+ */
+@media screen {
+  
+	
+	html {
+		background-color: #ECECEC;
+	}
+	
+	
+
+header {
+
+background-color: #001b74;
+padding:10px;
+
+
+
+}
+
+header h1 {
+margin:0;
+text-align:left;
+font-family: 'Unica One', cursive;
+color:#BFCAC2;
+letter-spacing:2px;
+
+
+
+}
+
+h2 {
+	font-family: 'Signika', sans-serif;
+	color: #2C3297;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-family: 'Signika', sans-serif;
+	color: #2C3297;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-family: 'Signika', sans-serif;
+	color: #2C3297;
+	letter-spacing: 1px;
+}
+
+nav {
+background-color: #9CC7E5;
+padding-top: 1px;
+padding-bottom:1px;
+text-align:center;
+text-transform: uppercase;
+
+
+}
+
+nav ul {
+list-style: none;
+padding-left: 0;
+}
+
+nav li {
+
+display: inline;
+padding:5px;
+font-family: 'Signika', sans-serif;
+font-weight:lighter;
+
+}
+
+nav a:link {
+color:#FFFFFF;
+text-decoration:none;
+}    
+
+nav a:visited {
+color:#FFFFFF;
+text-decoration:none;
+} 
+
+nav a:hover {
+color:#001b74;
+text-decoration:none;
+background-color: white;
+}   
+
+nav a:active {
+color:#FFFFFF;
+text-decoration:none;
+} 
+
+body {
+
+background-color:white;
+padding:0px;
+font-family: helvetica;
+font-weight:lighter;
+
+
+
+}
+
+p {
+	padding:5px;
+}
+
+
+footer {
+background-color: #191047;
+color:#BFCAC2;
+padding:10px;
+margin:0;
+font-family: 'Signika', sans-serif;
+
+}
+
+img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+width: 80%;
+}
+
+blockquote {
+	font-style: italic;
+	color: #2C3297;
+	font-size:larger;
+	font-family: 'Signika', sans-serif;
+	
+}
+
+#content {
+	letter-spacing: 1px;
+	line-height: 2em;
+}
+
+}
+
+/*
+ * 500px and wider
+ */
+@media screen and (min-width: 500px) {
+
+nav {
+float:left;
+width:20%;
+text-align:left;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+
+
+
+}
+
+nav a {
+
+display:block;
+padding: 5px;
+
+
+}
+
+#content {
+float:right;
+width:75%;
+text-align:justify;
+padding: 5px;
+
+}
+
+footer {
+clear:both;
+padding:10px;
+}
+
+body {
+	width: 70%;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+border: 1px solid #001b74;
+
+
+}
+
+nav ul {
+list-style: none;
+padding-left: 0;
+}
+
+
+nav li {
+	font-family: 'Signika', sans-serif;
+	font-size:24px;
+	text-align: left;
+	font-weight: lighter;
+	padding:0;
+	
+
+	
+}
+
+
+h1 {
+	font-family: 'Signika', sans-serif;
+	
+	
+}
+
+header h1 {
+	font-size: 60px;
+	font-family: 'Unica One', cursive;
+	
+}
+
+
+#content {
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+
+
+}
+
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+/*
+ * Print styles
+ */
+@media print {
+
+
+
+}
