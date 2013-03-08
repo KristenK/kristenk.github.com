@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>responsive websites!</title>
+    <link href='http://fonts.googleapis.com/css?family=Inika' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+<header>
+<h1>Into the Void</h1>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Responsive_web_design">About</a></li>
+        <li><a href="http://www.abookapart.com/products/responsive-web-design">Buy</a></li>
+        <li><a href="http://kittenwar.com/">Kitten War</a></li>
+<li><a href="http://kittenwar.com/">Contact</a></li>
+<li><a href="http://kittenwar.com/">Wikipedia</a></li>
+    </ul>
+</nav>
+
+<div id="content">
+<h1>Yves Klein</h1>
+<p>Yves Klein (28 April 1928 ‚Äì 6 June 1962) was a French artist considered an important figure in post-war European art. He is the leading member of the French artistic movement of Nouveau r√©alisme founded in 1960 by art critic Pierre Restany. Klein was a pioneer in the development of Performance art, and is seen as an inspiration to and as a forerunner of Minimal art, as well as Pop art.</p>
+
+<img src="klein.jpg">
+<p>Klein was born in Nice, in the Alpes-Maritimes department of France. His parents, Fred Klein and Marie Raymond, were both painters. His father painted in a loose Post-impressionist style, while his mother was a leading figure in Art informel, and held regular soir√©es with other leading practitioners of this Parisian abstract movement.</p>
+<p>From 1942 to 1946, Yves Klein studied at the √âcole Nationale de la Marine Marchande and the √âcole Nationale des Langues Orientales and began practicing judo. At this time, he became friends with Arman Fernandez and Claude Pascal and started to paint. At the age of nineteen, Klein and his friends lay on a beach in the south of France, and divided the world between themselves; Arman chose the earth, Claude, words, while Yves chose the ethereal space surrounding the planet, which he then proceeded to sign:
+With this famous symbolic gesture of signing the sky, Klein had foreseen, as in a reverie, the thrust of his art from that time onwards‚Äîa quest to reach the far side of the infinite.</p>
+<p>Between 1947 and 1948, Klein conceived his Monotone Symphony (1949, formally The Monotone-Silence Symphony) that consisted of a single 20-minute sustained chord followed by a 20-minute silence ‚Äì a precedent to both La Monte Young's drone music and John Cage's 4‚Ä≤33‚Ä≥.During the years 1948 to 1952, he traveled to Italy, Great Britain, Spain, and Japan. In Japan, at the early age of 25, he became a master at judo receiving the rank of yodan (4th dan/degree black-belt) from the Kodokan, which at that time was a remarkable achievement for a westerner. He also stayed in Japan in 1953. Klein later wrote a book on Judo called Les fondements du judo. In 1954, Klein settled permanently in Paris and began in earnest to establish himself in the art world.</p>
+
+
+<h2>Monochrome works: The Blue Epoch</h2>
+<img src="klein2.jpg">
+<p>Although Klein had painted monochromes as early as 1949, and held the first private exhibition of this work in 1950, his first public showing was the publication of the Artist's book Yves: Peintures in November 1954. Parodying a traditional catalogue, the book featured a series of intense monochromes linked to various cities he had lived in during the previous years. Yves: Peintures anticipated his first two shows of oil paintings, at the Club des Solitaires, Paris, October 1955 and Yves: Proposition monochromes at Gallery Colette Allendy, February 1956. Public responses to these shows, which displayed orange, yellow, red, pink and blue monochromes, deeply disappointed Klein, as people went from painting to painting, linking them together as a sort of mosaic.</p>
+
+<blockquote><p>From the reactions of the audience, [Klein] realized that...viewers thought his various, uniformly colored canvases amounted to a new kind of bright, abstract interior decoration. Shocked at this misunderstanding, Klein knew a further and decisive step in the direction of monochrome art would have to be taken...From that time onwards he would concentrate on one single, primary color alone: blue.</p></blockquote>
+
+<p>The next exhibition, 'Proposte Monochrome, Epoca Blu' (Proposition Monochrome; Blue Epoch) at the Gallery Apollinaire, Milan, (January 1957), featured 11 identical blue canvases, using ultramarine pigment suspended in a synthetic resin 'Rhodopas,' described by Klein as "The Medium." Discovered with the help of Edouard Adam, a Parisian paint dealer, the optical effect retained the brilliance of the pigment which, when suspended in linseed oil, tended to become dull. Klein later deposited a Soleau envelope[6] for this recipe to maintain the "authenticity of the pure idea."This colour, reminiscent of the lapis lazuli used to paint the Madonna's robes in medieval paintings, was to become famous as International Klein Blue (IKB). The paintings were attached to poles placed 20 cm away from the walls to increase their spatial ambiguities.</p>
+
+<p>The show was a critical and commercial success, traveling to Paris, D√ºsseldorf and London. The Parisian exhibition, at the Iris Clert Gallery in May 1957, became a seminal happening.[8] To mark the opening, 1001 blue balloons were released and blue postcards were sent out using IKB stamps that Klein had bribed the postal service to accept as legitimate.[9] Concurrently, an exhibition of tubs of blue pigment and fire paintings was held at Gallery Collette Allendy.</p>
+
+<h3>The Void</h3>
+<p>For his next exhibition at the Iris Clert Gallery (April 1958), Klein chose to show nothing whatsoever, called La sp√©cialisation de la sensibilit√© √† l‚Äô√©tat mati√®re premi√®re en sensibilit√© picturale stabilis√©e, Le Vide (The Specialization of Sensibility in the Raw Material State into Stabilized Pictorial Sensibility, The Void): he removed everything in the gallery space except a large cabinet, painted every surface white, and then staged an elaborate entrance procedure for the opening night; The gallery's window was painted blue, and a blue curtain was hung in the entrance lobby, accompanied by republican guards and blue cocktails. Thanks to an enormous publicity drive, 3000 people were forced to queue up, waiting to be let in to an empty room.</p>
+
+<blockquote>
+    <p>Recently my work with color has led me, in spite of myself, to search little by little, with some assistance (from the observer, from the translator), for the realization of matter, and I have decided to end the battle. My paintings are now invisible and I would like to show them in a clear and positive manner, in my next Parisian exhibition at Iris Clert's</p>
+</blockquote>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<ul>
+    <li>Lorem ipsum dolor sit amet</li>
+    <li>Consectetur adipisicing elit</li>
+    <li>Sed do eiusmod tempor incididunt</li>
+</ul>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</footer>
+</body>
+</html>
