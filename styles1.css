@@ -2,7 +2,7 @@
  * Default styles
  */
 @media screen {
-  
+	
 	
 	html {
 		background-color: #ECECEC;
@@ -128,14 +128,37 @@ width: 80%;
 blockquote {
 	font-style: italic;
 	color: #2C3297;
-	font-size:larger;
-	font-family: 'Signika', sans-serif;
+	font-size:18px;
+	font-family: Georgia, serif;
 	
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
 }
 
 #content {
 	letter-spacing: 1px;
 	line-height: 2em;
+}
+
+ul {
+	list-style:none;
+	
+}
+
+li {
+	font-family:"Times New Roman", Times, serif;
+	font-size:large;
+	color: #2C3297;
+	
 }
 
 }
@@ -223,6 +246,28 @@ header h1 {
 	line-height: 1.5em;
 }
 
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 80%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #2C3297;
+}
+
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
 
 
 }
@@ -241,7 +286,23 @@ header h1 {
  * Print styles
  */
 @media print {
+	
+	body {
+		font-family: Helvetica, sans-serif;
+	}
 
+img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+width: 80%;
+}
 
+blockquote {
+	font-style: italic;
+	font-size:larger;
+	
+	
+}
 
 }
