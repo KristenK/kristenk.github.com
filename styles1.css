@@ -161,12 +161,137 @@ li {
 	
 }
 
+i {
+
+color: #2C3297;
+
+}
+
 }
 
 /*
  * 500px and wider
  */
 @media screen and (min-width: 500px) {
+
+nav {
+
+text-align:center;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+
+
+
+}
+
+nav a {
+
+padding: 1px;
+
+
+}
+
+#content {
+width:98%;
+text-align:justify;
+padding: 5px;
+
+}
+
+footer {
+padding:10px;
+}
+
+body {
+	width: 70%;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+border: 1px solid #001b74;
+
+
+}
+
+nav ul {
+list-style: none;
+padding-left: 0;
+
+}
+
+
+nav li {
+	font-family: 'Signika', sans-serif;
+	font-size:24px;
+	text-align: left;
+	font-weight: lighter;
+	padding:1px;
+	border-bottom: 1px solid #001b74;
+     border-top: 1px solid #001b74;
+   
+
+	
+}
+
+
+h1 {
+	font-family: 'Signika', sans-serif;
+     text-align: center;
+	
+	
+}
+
+h2  {
+    text-align:center;
+}
+
+h3 {
+
+    text-align:center;
+    text-transform: uppercase;
+}
+
+header h1 {
+	font-size: 60px;
+	font-family: 'Unica One', cursive;
+	text-align: center;
+}
+
+
+#content {
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 80%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #2C3297;
+}
+
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 75px;
+position: absolute;
+left: -8px;
+top: -20px;
+color: #7a7a7a;
+}
+
+
+}
+
+/*
+ * 768px and wider
+ */
+@media screen and (min-width: 768px) {
 
 nav {
 float:left;
@@ -213,6 +338,9 @@ border: 1px solid #001b74;
 nav ul {
 list-style: none;
 padding-left: 0;
+margin-left: 0;
+margin-right: 0;
+width:100%;
 }
 
 
@@ -230,9 +358,16 @@ nav li {
 
 h1 {
 	font-family: 'Signika', sans-serif;
+     text-align: left;
 	
 	
 }
+
+h2 { 
+      text-align: left;
+}
+
+
 
 header h1 {
 	font-size: 60px;
@@ -269,13 +404,17 @@ top: -20px;
 color: #7a7a7a;
 }
 
+ul {
+
+text-align: justify;
+list-style: circle;
+width: 50%;
+display: block;
+margin-right: auto;
+margin-left:auto;
+
 
 }
-
-/*
- * 768px and wider
- */
-@media screen and (min-width: 768px) {
 
 
 
@@ -303,6 +442,4 @@ blockquote {
 	font-size:larger;
 	
 	
-}
-
 }
