@@ -355,6 +355,9 @@ nav li {
 	
 }
 
+header h1 {
+          text-align: left;
+}
 
 h1 {
 	font-family: 'Signika', sans-serif;
@@ -430,11 +433,25 @@ margin-left:auto;
 		font-family: Helvetica, sans-serif;
 	}
 
+nav ul {
+list-style: none;
+padding-left: 0;
+}
+
+nav li {
+
+display: inline;
+font-family: 'Signika', sans-serif;
+font-weight:lighter;
+
+}
+
 img {
 display: block;
 margin-right: auto;
 margin-left: auto;
-width: 80%;
+width: 50%;
+height: 50%;
 }
 
 blockquote {
