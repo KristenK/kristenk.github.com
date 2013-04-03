@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Writing on the Wall</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="wall2.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/JavaScript">
+$(document).ready(function (){
+  $('#button a').click(function(){
+		var integer = $(this).attr('rel');
+		$('#myslide .cover').animate({left:-200*(parseInt(integer)-1)})  /*----- Width of div mystuff (here 160) ------ */
+		$('#button a').each(function(){
+		$(this).removeClass('active');
+			if($(this).hasClass('button'+integer)){
+				$(this).addClass('active')}
+		});
+	});	
+});
+</script>
+
+</head> 
+
+<body>
+
+<div id="header">
+<div class="nav">
+    <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Responsive_web_design">About</a></li>
+        <li><a href="http://www.abookapart.com/products/responsive-web-design">artists</a></li>
+        <li><a href="http://kittenwar.com/">before</a></li>
+<li><a href="http://kittenwar.com/">1932</a></li>
+<li><a href="http://kittenwar.com/">after</a></li>
+    </ul>
+</div>
+<div class="title">
+<h1>The Writing</h1>
+<h2>On The Wall</h2>
+</div>
+<h3 class="clear">Moma, mexico, and american murals</h3>
+</div>
+
+<footer>
+<p><em>“What is meant by a National School of Mural painting is not a school sponsored by the government but a free vital renascence of American painting. We believe that greater technical freedom of expression and the assignment of mural work by the government to the younger, nationally recognized modern painters might result in such a vital renascence.”</em></p>
+</footer>
+<div id="content">
+<div id ="content1">
+<h1>The Project</h1>
+<p><b>This is my intro paragraph. It will talk about what this website is about. Here is some text from my paper. In 1934 American artist George Biddle published an article in Scribner’s Magazine titled “An Art Renascence Under Federal Patronage.” In the piece Biddle calls for the production of a socially conscious form of art to be supported by the government in an effort to facilitate “a revival of art whereby the artist will move from the periphery to the core of national life.” In particular, Biddle advocates for the government sponsorship of mural commissions to be modeled on the program instituted by Mexican President Alvaro Obregon. The achievements of the Mexican Muralists, primarily Diego Rivera, José Clemente Orozco and David Alfaro Siqueiros, not only impressed Biddle, but were admired by a wide variety of artists and critics as a significant step forward in producing relevant and engaging modern art. American theorists, artists and critics had been interested in the mural as a form of art which could transcend the boundaries of “high art” and truly communicate with the public beginning in the late 19th century. The success of the Mexican muralist in creating socially conscious and politically active art instigated a re-examination of the mural in America as a form of art that could be simultaneously traditional, modern, democratic, radical, and above all, of the people.</b></p>
+<h1>The Website</h1>
+<p>here is more text. This paper will examine the relationship between the two North American mural movements, and how their methods of production, aesthetics, and politics influenced and defined each other, through a thorough examination of the American mural discourse and the events surrounding Diego Rivera’s 1932 Rockefeller Center commision which led to the Museum of Modern Art’s exhibition Mural Paintings by American Artists and Photographers. This paper will argue that the American mural movement was heavily indebted to the practices of the Mexican muralists while at the same time limited by the ever present spectre of Mexican radicalism. Mexican mural production was born of a communist approach to art production and consumption, and its subject matter unashamedly announced its Marxists views to the world at large. The mural’s ability to be used as ideological propaganda and it’s close association with Mexican Marxism, created tension in the American mural movement between those who wished to use muralism in America to reconnect art with everyday life like Biddle, and federal and private patrons who felt threatened by radicalism. This tension manifested itself in the whitewashing of controversial murals and tight control over government commissioned works, creating a stylistically limited and thematically stagnant body of work which has only recently begun to be revisited by scholars.<p>
+</div>
+<div id="img">
+<h1>Artists</h1>
+<div id="button">
+		 <a class="button1 active" rel="1" href="#"></a>
+		 <a class="button2" rel="2" href="#"></a>
+		 <a class="button3" rel="3" href="#"></a>
+	</div> <!-- end of div button-->
+ 
+	<div class="clear"></div>
+ 
+	<div id="myslide">
+		<div class="cover">
+ 
+			<div class="mystuff">
+				<img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/pelvic_thrusting_cats.png" />
+			</div>
+			<div class="mystuff">
+				<img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/pelvic_thrusting_cats.png" />
+			</div>
+			<div class="mystuff">
+				<img src="http://s3.amazonaws.com/theoatmeal-img/thumbnails/pelvic_thrusting_cats.png" />
+			</div>
+ 
+		</div> <!-- end of div cover -->
+	</div>  <!-- end of div myslide -->
+</div>
+<p class="clear"> </p>
+</div>
+<footer>
+<p>here is some text!</p>
+</footer>
+</body>
+</html>
