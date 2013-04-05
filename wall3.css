@@ -443,12 +443,18 @@ footer p {
   background-color:black;
 }
 
-.image-details h4,
-.image-details p {
-  margin:0 0 .2em;
+.image-details h4 {
+	margin:0 0 .1em;
   padding:0 0;
   height:70px;
 }
+.image-details p {
+	margin:0 0 .1em;
+  padding:0 0;
+  height:70px;
+  font-size: 12px;
+}
+  
 
 .image-details h4 {
   font-size:120%;
