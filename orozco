@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Writing on the Wall</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="wall3.css">
+
+</head>
+
+<body>
+
+<div id="header">
+<div class="nav">
+    <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Responsive_web_design">About</a></li>
+        <li><a href="http://kristenk.github.com/artists.html">artists</a></li>
+        <li><a href="http://kittenwar.com/">before</a></li>
+<li><a href="http://kittenwar.com/">1932</a></li>
+<li><a href="http://kittenwar.com/">after</a></li>
+    </ul>
+</div>
+<div class="title" onclick="location.href='http://kristenk.github.com/final3.html';" style="cursor:pointer;">
+<h1>The Writing</h1>
+<h2>On The Wall</h2>
+</div>
+<h3 class="clear">Moma, mexico, and american murals</h3>
+</div>
+
+<footer>
+<p> </p>
+</footer>
+<div id="content">
+<div id ="content1">
+<h1>José Clemente Orozco</h1>
+<h3>(1883 – 1949)</h3>
+<p>José Clemente Orozco (November 23, 1883 – September 7, 1949) was a Mexican social realist painter, who specialized in bold murals that established the Mexican Mural Renaissance together with murals by Diego Rivera, David Alfaro Siqueiros, and others. Orozco was the most complex of the Mexican muralists, fond of the theme of human suffering, but less realistic and more fascinated by machines than Rivera. Mostly influenced by Symbolism, he was also a genre painter and lithographer. Between 1922 and 1948, Orozco painted murals in Mexico City, Orizaba, Claremont, California, New York City, Hanover, New Hampshire, Guadalajara, Jalisco, and Jiquilpan, Michoacán. His drawings and paintings are exhibited by the Carrillo Gil Museum in Mexico City, and the Orozco Workshop-Museum in Guadalajara.[1] Orozco was known for being a politically committed artist. He promoted the political causes of peasants and workers.</p>
+<p>José Clemente Orozco was born in Zapotlán el Grande (now Ciudad Guzmán) in 1883, Jalisco to Rosa de Flores Orozco. He married Margarita Valladares, and had three children. In a childhood accident, Orozco lost his left hand while playing with gunpowder. José Guadalupe Posada, a satirical illustrator whose engravings about Mexican culture and politics challenged Mexicans to think differently about post-revolutionary Mexico, worked in full view of the public in shop windows located on the way Orozco went to school. In his autobiography, Orozco confesses, "I would stop [on my way to and from school] and spend a few enchanted minutes in watching [Posada]… This was the push that first set my imagination in motion and impelled me to cover paper with my earliest little figures; this was my awakening to the existence of the art of painting." (Orozco, 1962) He goes to say that watching Posada's engraving decorated gave him his introduction to the use of color. After attending school for Agriculture and Architecture, Orozco studied art at the Academy of San Carlos.<p>
+<blockquote>With Diego Rivera, he was a leader of the artist movement known as Mexican Muralism. An important distinction he had from Rivera was his critical view of the Mexican Revolution. While Rivera was a bold, optimistic figure, touting the glory of the revolution, Orozco was less comfortable with the bloody toll the social movement was taking. Orozco is known as one of the "Big Three" muralists along with Diego Rivera and David Alfaro Siqueiros. All three artists, as well as the painter Rufino Tamayo, experimented with fresco on large walls, and elevated the art of the mural.</blockquote>
+<p>Between 1927–1934 Orozco lived in the USA. In 1930, he painted murals at the New School for Social Research, New York City, now known as the New School University. One of his most famous murals is The Epic of American Civilization at Dartmouth College, New Hampshire, USA. It was painted between 1932 and 1934 and covers almost 300 m² (3200 square feet) in 24 panels. Its parts include: "Migrations", "Human Sacrifices", "The Appearance of Quetzalcoatl", "Corn Culture", "Anglo-America", "Hispano-America", "Science" and "Modern Migration of the Spirit" (another version of "Christ Destroys His Cross").
+After returning to Mexico in 1935, Orozco painted in Guadalajara, Jalisco, the mural "The People and Its Leaders" in the Government Palace, and the frescos for the Hospicio Cabañas, which are considered his masterpiece. In 1940 he painted at the Gabino Ortiz Library in Jiquilpan, Michoacán. Between 1942–1944 Orozco painted for the Hospital de Jesús in Mexico City. Orozco's 1948 "Juárez Reborn" huge portrait-mural was one of his last works.[1]
+In 1947, Orozco illustrated the book The Pearl, by John Steinbeck.
+Orozco died in 1949 in Mexico City.</p>
+</div>
+<div id="img">
+<img src="http://24.media.tumblr.com/tumblr_mdwv6uL7kB1qc4l3vo1_400.jpg">
+<img src="http://farm3.static.flickr.com/2190/2465914118_a2e7694093.jpg" />
+</div>
+<p class="clear"> </p>
+</div>
+<footer>
+<p>here is some text!</p>
+</footer>
+</body>
+</html>
+
