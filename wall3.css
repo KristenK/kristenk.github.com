@@ -153,14 +153,14 @@ h1 {
 
 blockquote {
 font-family: Georgia, serif;
-font-size: 18px;
+font-size: 16px;
 font-style: italic;
 width: 80%;
 margin: 0.25em 0;
 padding: 0.25em 40px;
 line-height: 1.45;
 position: relative;
-color: #2C3297;
+color: red;
 }
 
 
@@ -344,14 +344,14 @@ p {
 
 blockquote {
 font-family: Georgia, serif;
-font-size: 18px;
+font-size: 16px;
 font-style: italic;
 width: 80%;
 margin: 0.25em 0;
 padding: 0.25em 40px;
 line-height: 1.45;
 position: relative;
-color: #2C3297;
+color: red;
 }
 
 
