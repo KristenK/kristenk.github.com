@@ -331,10 +331,11 @@ h3 {
 
 p {
 	font-family: 'helvetica', sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	padding: 5px;
 
 }
+
 
 .clear {
 	clear:both;
@@ -385,17 +386,17 @@ footer p {
 
 
 
-#myslide {width:200px;overflow:hidden;position: relative;height:220px;margin-bottom:20px}
+#myslide {width:317px;overflow:hidden;position: relative;height:490px;margin-bottom:20px}
  
 	#myslide .cover{
-		width:600px; /*------- class mystuff width * number of mystuff divs (160 * 3 = 480)---------- */
+		width:951px; /*------- class mystuff width * number of mystuff divs (160 * 3 = 480)---------- */
 		position: absolute;
-		height:210px;
+		height:480px;
 	}
  
-	#myslide .mystuff {width:200px;float:left;padding:20px 0;}
+	#myslide .mystuff {width:317px;float:left;padding:10px 0;}
  
-	.button1,.button2,.button3{background:#999;padding:6px;display:block;float:left;margin-right:5px;}
+	.button1,.button2,.button3{background:#999;padding:6px;display:block;float:left;margin-right:10px;}
 	.active{background:#111;padding:6px;display:block;float:left;outline:none;}
 	.clear{clear:both;}
 
