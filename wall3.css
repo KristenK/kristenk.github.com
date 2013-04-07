@@ -478,7 +478,7 @@ text-decoration:none;
 
 
 #content1 {
-text-align:left;
+text-align:justify;
 padding: 20px;
 padding-top: 20px;
 
@@ -526,7 +526,7 @@ h3 {
 }
 
 p {font-family: 'Istok Web', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px;
 
 }
