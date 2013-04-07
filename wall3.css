@@ -128,10 +128,7 @@ text-decoration:none;
 background-color: #666;
 }   
 
-#header .nav a:active {
-color:red;
-text-decoration:none;
-} 
+
 
 body {
 
@@ -200,13 +197,7 @@ ul {
 	
 }
 
-li {
-	font-family:"Times New Roman", Times, serif;
-	font-size:large;
-	color: #2C3297;
-	display: inline;
-	
-}
+
 
 
 
