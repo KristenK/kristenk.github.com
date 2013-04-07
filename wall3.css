@@ -189,8 +189,8 @@ content: "\2014 \2009";
 }
 
 #content {
-	letter-spacing: 1px;
-	line-height: 1.2em;
+	letter-spacing: .5px;
+	line-height: 1.1em;
 }
 
 ul {
@@ -482,7 +482,7 @@ text-align:justify;
 padding: 20px;
 padding-top: 20px;
 
-	line-height: 1em;
+	line-height: 1.1em;
 	width: 50%;
 	float: left;
 
