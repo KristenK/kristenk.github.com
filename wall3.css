@@ -8,6 +8,196 @@
 
 
 
+	html {
+		background-color: #FFFFFF;
+	}
+	
+	
+
+#header {
+		padding: 0px;
+		padding-bottom: 10px;
+		width:100%;
+		margin:auto;
+
+	}
+	
+	#header .title {
+
+
+	font-family: 'helvetica', sans-serif;
+	padding: 0px;
+
+
+}
+
+#header .title h1 {
+	font-size:40px;
+	text-transform:uppercase;
+	text-align:left;
+	font-family: 'helvetica', sans-serif;
+	margin-bottom:0px;
+
+}
+
+
+
+#header .title h2 {
+	font-size:40px;
+	margin-top:-20px;
+	text-align:left;
+	padding-left: 25px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+h3 {
+	font-family: 'Helvetica', sans-serif;
+     text-align: left;
+	 font-size:15px;
+	 color: red;
+	 text-transform:uppercase;
+	 margin-bottom: -10px;
+	 margin-top: -10px;
+
+
+}
+
+
+#header .nav {
+background-color: #869092;
+padding-top: 1px;
+padding-bottom:1px;
+text-align:center;
+text-transform: uppercase;
+
+
+}
+
+#header .nav ul {
+list-style: none;
+padding-left: 0;
+}
+
+#header .nav li {
+
+display: inline;
+padding:5px;
+font-family: 'helvetica', sans-serif;
+font-weight:lighter;
+}
+
+#header .nav a:link {
+color:#FFFFFF;
+text-decoration:none;
+}    
+
+#header .nav a:visited {
+color:#FFFFFF;
+text-decoration:none;
+} 
+
+#header .nav a:hover {
+color:#001b74;
+text-decoration:none;
+background-color: white;
+}   
+
+#header .nav a:active {
+color:#FFFFFF;
+text-decoration:none;
+} 
+
+ li {
+font-family: 'helvetica', sans-serif;
+font-weight:bold;
+}
+
+ a:link {
+color:red;
+text-decoration:none;
+}    
+
+ a:visited {
+color:red;
+text-decoration:none;
+} 
+
+ a:hover {
+color:white;
+text-decoration:none;
+background-color: #666;
+}   
+
+
+
+body {
+
+background-color:white;
+padding:0px;
+font-family: helvetica;
+
+
+
+}
+
+.mystuff {
+	padding: 10px;
+}
+
+
+p {
+	padding:5px;
+}
+
+
+footer {
+background-color: #869092;
+color:#FFFFFF;
+padding:10px;
+margin:0;
+margin-bottom:5px;
+font-family: 'helvetica', sans-serif;
+
+}
+
+img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+max-width:100%;
+padding: 5px;
+}
+
+blockquote {
+	font-style: italic;
+	color: red;
+	font-size:18px;
+	font-family: Georgia, serif;
+	
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+#content {
+	letter-spacing: 1px;
+	line-height: 1.2em;
+}
+
+ul {
+	list-style: none;
+	
+}
+
 
 
 }
