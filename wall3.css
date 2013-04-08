@@ -483,6 +483,7 @@ padding-top: 20px;
 	line-height: 1.1em;
 	width: 50%;
 	float: left;
+	text-align:left;
 
 }
 
@@ -576,6 +577,7 @@ footer p {
 	margin-bottom:0;
 	font-size: 20px;
 	line-height: 1em;
+	text-align: center;
 
 }
 
