@@ -508,7 +508,7 @@ text-decoration:none;
 
 
 #content1 {
-text-align:left;
+text-align:justify;
 padding: 20px;
 padding-top: 20px;
 letter-spacing: 1px;
@@ -673,6 +673,7 @@ footer p {
 	margin-top:0;
 	margin-bottom:0;
 	font-size: 20px;
+	text-align:justify;
 
 }
 
@@ -776,7 +777,7 @@ footer p {
 .image-box:hover .image-container {margin-top:-180px}
 .image-details .more:hover {background-color:red}
 
-p a:link {
+#next a:link {
 color:red;
 text-decoration:none;
 text-align:right;
@@ -784,12 +785,12 @@ font-size: 30px;
 float: right;
 }    
 
-p a:visited {
+#next a:visited {
 color:red;
 text-decoration:none;
 } 
 
-p a:hover {
+#next a:hover {
 color:white;
 text-decoration:none;
 background-color: #666;
