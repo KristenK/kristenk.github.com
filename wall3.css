@@ -7,7 +7,6 @@
 @media screen {
 
 
-
 	html {
 		background-color: #FFFFFF;
 	}
@@ -129,13 +128,17 @@ text-decoration:none;
 background-color: #666;
 }   
 
-
+#header .nav a:active {
+color:red;
+text-decoration:none;
+} 
 
 body {
 
 background-color:white;
 padding:0px;
 font-family: helvetica;
+text-align: justify;
 
 
 
@@ -189,16 +192,26 @@ content: "\2014 \2009";
 }
 
 #content {
-	letter-spacing: .5px;
-	line-height: 1.1em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
 }
 
 ul {
-	list-style: none;
+	list-style:none;
 	
 }
 
+li {
+	font-family:"Times New Roman", Times, serif;
+	font-size:large;
+	color: #2C3297;
+	display: inline;
+	
+}
 
+.caps {
+	text-transform:uppercase;
+}
 
 }
 
@@ -378,7 +391,6 @@ color: #7a7a7a;
 		padding-bottom: 10px;
 		width:1000px;
 		margin:auto;
-		max-width:100%;
 
 	}
 	
@@ -479,12 +491,23 @@ text-decoration:none;
 
 
 #content1 {
+text-align:left;
 padding: 20px;
 padding-top: 20px;
-	line-height: 1.1em;
+letter-spacing: 1px;
+	line-height: 1.2em;
 	width: 50%;
 	float: left;
-	text-align:justify;
+
+}
+
+#content2 {
+text-align:justify;
+padding: 20px;
+padding-top: 20px;
+letter-spacing: 1px;
+	line-height: 1.2em;
+	width: 100%;
 
 }
 
@@ -525,11 +548,10 @@ h3 {
 
 }
 
-p {font-family: 'Istok Web', sans-serif;
+p {
+	font-family: 'helvetica', sans-serif;
 	font-size: 14px;
 	padding: 5px;
-
-	
 
 }
 
@@ -543,12 +565,35 @@ blockquote {
 font-family: Georgia, serif;
 font-size: 16px;
 font-style: italic;
-width: 80%;
+width: 50%;
 margin: 0.25em 0;
 padding: 0.25em 40px;
 line-height: 1.45;
 position: relative;
 color: red;
+}
+
+.quote {
+font-family: Georgia, serif;
+font-size: 14px;
+font-style: italic;
+width: 30%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: red;
+float: right;
+}
+
+.quote:before {
+display: block;
+content: "\201C";
+font-size: 50px;
+position: absolute;
+left: 10px;
+top: -20px;
+color: #7a7a7a;
 }
 
 
@@ -560,6 +605,17 @@ position: absolute;
 left: -20px;
 top: -20px;
 color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
 }
 
 footer {
@@ -577,8 +633,6 @@ footer p {
 	margin-top:0;
 	margin-bottom:0;
 	font-size: 20px;
-	line-height: 1em;
-	text-align: justify;
 
 }
 
@@ -628,10 +682,6 @@ footer p {
   height:170px;
   border:5px solid white;
   background-color:#869092;
-  -webkit-transition:margin-top .4s ease-out .4s;
-  -moz-transition:margin-top .4s ease-out .4s;
-  -o-transition:margin-top .4s ease-out .4s;
-  -ms-transition:margin-top .4s ease-out .4s;
   transition:margin-top .4s ease-out .4s;
 }
 
@@ -687,6 +737,7 @@ footer p {
 .image-details .more:hover {background-color:red}
 
 }
+
 
 
 /*
