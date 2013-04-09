@@ -573,8 +573,8 @@ letter-spacing: 1px;
 
 #whatItIs img {
 	float:right;
-	max-height:300px;
 	max-height:310px;
+	max-width:100%;
 }
 
 #whatItIs p {
