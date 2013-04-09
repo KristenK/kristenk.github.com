@@ -559,7 +559,11 @@ letter-spacing: 1px;
 }
 
 
-
+#gallery img {
+	display:inline;
+	padding:10px;
+	max-width:100%
+}
 
 #background img {
 	max-height: 150px;
@@ -571,6 +575,10 @@ letter-spacing: 1px;
 	float:right;
 	max-height:300px;
 	max-height:310px;
+}
+
+#whatItIs p {
+	text-align:left;
 }
 
 body {
