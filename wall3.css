@@ -543,16 +543,34 @@ letter-spacing: 1px;
 	max-width: 100%;
 }
 
-#whatItIs img {
-	max-height: 100px;
-	max-width:100px;
+
+#whatItIs {
+	padding: 5px;
+	width:60%
+	margin-right:auto;
+	margin-left:auto;
+}
+	
+
+#biddle {
+	float:left;
+	margin-left: -20px;
+	padding: 10px;
+}
+
+
+
+
+#background img {
+	max-height: 150px;
+	max-width:150px;
 	display: inline;
 }
 
-#background img {
-	max-height: 100px;
-	max-width:100px;
-	display: inline;
+#whatItIs img {
+	float:right;
+	max-height:300px;
+	max-height:310px;
 }
 
 body {
@@ -574,6 +592,15 @@ h3 {
 	 margin-top: -10px;
 
 
+}
+
+h2 {
+	font-family: 'Helvetica', sans-serif;
+     text-align: left;
+	 font-size:20px;
+	 color: red;
+	 text-transform:uppercase;
+	 margin-top: -10px;
 }
 
 h4 {
