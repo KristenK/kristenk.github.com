@@ -735,15 +735,15 @@ footer p {
 
 /*-------------------------------------------IMAGE SLIDER-------------------------------------------*/
 
-#myslide {width:317px;overflow:hidden;position: relative;height:490px;margin-bottom:20px}
+#myslide {width:517px;overflow:hidden;position: relative;height:490px;margin-bottom:20px}
  
 	#myslide .cover{
-		width:951px; /*------- class mystuff width * number of mystuff divs (160 * 3 = 480)---------- */
+		width:1551px; /*------- class mystuff width * number of mystuff divs (160 * 3 = 480)---------- */
 		position: absolute;
-		height:480px;
+		height:490px;
 	}
  
-	#myslide .mystuff {width:317px;float:left;padding:10px 0;}
+	#myslide .mystuff {width:517px;float:left;padding:10px 0;}
  
 	.button1,.button2,.button3{background:#999;padding:6px;display:block;float:left;margin-right:10px;}
 	.active{background:#111;padding:6px;display:block;float:left;outline:none;}
