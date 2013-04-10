@@ -403,6 +403,20 @@ color: #7a7a7a;
  * 768px and wider
  */
 @media screen and (min-width: 768px) {
+	
+	
+	body {
+	width: 100%;
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+
+
+}
+
+
+/*-----------------------------------------------------MAIN HEADER-----------------------------------*/
+
 	#header {
 		padding: 10px;
 		padding-bottom: 10px;
@@ -499,6 +513,17 @@ color:#000000;
 text-decoration:none;
 } 
 
+/*-----------------------------------------------CONTENT/TEXT------------------------------------------*/
+
+
+
+p {
+	font-family: 'helvetica', sans-serif;
+	font-size: 14px;
+	padding: 5px;
+
+}
+
 #content {
 	width:70%;
 	margin: auto;
@@ -506,7 +531,7 @@ text-decoration:none;
 	line-height: 1em;
 }
 
-
+/*TWO COLLUM LAYOUT*/
 #content1 {
 text-align:justify;
 padding: 20px;
@@ -515,16 +540,6 @@ letter-spacing: 1px;
 	line-height: 1.2em;
 	width: 50%;
 	float: left;
-
-}
-
-#content2 {
-text-align:justify;
-padding: 20px;
-padding-top: 20px;
-letter-spacing: 1px;
-	line-height: 1.2em;
-	width: 100%;
 
 }
 
@@ -543,6 +558,21 @@ letter-spacing: 1px;
 	max-width: 100%;
 }
 
+/*ONE COLLUM LAYOUT*/
+
+#content2 {
+text-align:justify;
+padding: 20px;
+padding-top: 20px;
+letter-spacing: 1px;
+	line-height: 1.2em;
+	width: 100%;
+
+}
+
+
+
+/*EXPANDING CONTENT*/
 
 #whatItIs {
 	padding: 5px;
@@ -580,14 +610,8 @@ letter-spacing: 1px;
 	text-align:justify;
 }
 
-body {
-	width: 100%;
-	margin:auto;
-	margin-top:0px;
-	margin-bottom:0px;
 
-
-}
+/*-----------------------------------------------------------HEADINGS-----------------------------*/
 
 h3 {
 	font-family: 'Helvetica', sans-serif;
@@ -622,18 +646,12 @@ h4 {
 
 }
 
-p {
-	font-family: 'helvetica', sans-serif;
-	font-size: 14px;
-	padding: 5px;
-
-}
 
 
 .clear {
 	clear:both;
 }
-
+/*-----------------------------------------------QUOTES-------------------------------*/
 
 blockquote {
 font-family: Georgia, serif;
@@ -692,6 +710,8 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
+/*--------------------------------------------------FOOTER---------------------------*/
+
 footer {
 	background-color: #869092;
 	padding:30px;
@@ -712,7 +732,7 @@ footer p {
 }
 
 
-
+/*-------------------------------------------IMAGE SLIDER-------------------------------------------*/
 
 #myslide {width:317px;overflow:hidden;position: relative;height:490px;margin-bottom:20px}
  
@@ -733,7 +753,7 @@ footer p {
 }
 
 
-
+/*---------------------------------------------------------IMAGECAPTIONS---------------------------*/
 
 .image-box-wrapper {
   width:742px;
@@ -810,6 +830,9 @@ footer p {
 .image-box:hover {border-color:#bbb}
 .image-box:hover .image-container {margin-top:-180px}
 .image-details .more:hover {background-color:red}
+
+
+/*-------------------------------------------------------FORWARDNAV-----------------------------*/
 
 #next a:link {
 color:red;
