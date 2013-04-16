@@ -145,6 +145,9 @@ p {
 	font-family: 'helvetica', sans-serif;
 	font-size: 14px;
 	padding: 5px;
+	text-align:justify;
+	letter-spacing: 1px;
+	line-height: 1.2em;
 
 }
 
@@ -186,11 +189,8 @@ letter-spacing: 1px;
 /*ONE COLLUM LAYOUT*/
 
 #content2 {
-text-align:justify;
 padding: 20px;
 padding-top: 20px;
-letter-spacing: 1px;
-	line-height: 1.2em;
 	width: 100%;
 
 }
@@ -319,10 +319,10 @@ color: #7a7a7a;
 blockquote:before {
 display: block;
 content: "\201C";
-font-size: 80px;
+font-size: 50px;
 position: absolute;
-left: -20px;
-top: -20px;
+left: 5px;
+top: -10px;
 color: #7a7a7a;
 }
 
@@ -356,27 +356,6 @@ footer p {
 	font-size: 20px;
 	text-align:justify;
 
-}
-
-
-/*-------------------------------------------IMAGE SLIDER-------------------------------------------*/
-
-#myslide {width:517px;overflow:hidden;position: relative;height:490px;margin-bottom:20px}
- 
-	#myslide .cover{
-		width:1551px; /*------- class mystuff width * number of mystuff divs (160 * 3 = 480)---------- */
-		position: absolute;
-		height:490px;
-	}
- 
-	#myslide .mystuff {width:517px;float:left;padding:10px 0;}
- 
-	.button1,.button2,.button3{background:#999;padding:6px;display:block;float:left;margin-right:10px;}
-	.active{background:#111;padding:6px;display:block;float:left;outline:none;}
-	.clear{clear:both;}
-
-.mystuff {
-	padding: 0px;
 }
 
 
