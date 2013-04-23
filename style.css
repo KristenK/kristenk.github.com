@@ -1,8 +1,8 @@
 /* Flexible Slide-to-top Accordion Style*/
 .wrapper{
-       width:90%;
+       width:100%;
 	max-width:950px;
-	margin:30px;
+	margin:20px;
 }
 .st-accordion{
     width:100%;
@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 .st-accordion ul li{
-    height: 100px;
+    height: 90px;
     border-bottom: 1px solid #000000;
     border-top:1px solid #fff;
     overflow: hidden;
@@ -90,6 +90,6 @@
 
 @media screen and (max-width: 320px){
 	.st-accordion ul li > a{
-		font-size:36px;
+		font-size:26px;
 	}
 }
