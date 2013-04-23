@@ -244,7 +244,15 @@ text-decoration:none;
 }
 
 
-
+up {
+float:right;
+font-size:30px;
+font-family: 'Helvetica', sans-serif;
+padding:20px;
+color:red;
+height:30px;
+width:50px;
+}
 
 
 /*-----------------------------------------------------------HEADINGS-----------------------------*/
@@ -522,10 +530,16 @@ figure:hover:before {
 .cap-bot:hover figcaption { bottom: 0; }
 
 
-/*-------------------------------------------------------FORWARDNAV-----------------------------*/
+/*-------------------------------------------------------FOOTNOTES-----------------------------*/
 
 
 
+#footnote p {
+padding: 0px;
+margin-top: 0px;
+margin-bottom:0px;
+font-size: 11px;
+}
 
 
 }
@@ -570,6 +584,14 @@ blockquote {
 
 
 }
+
+#footnote p {
+padding: 0px;
+margin-top: 0px;
+margin-bottom:0px;
+font-size: 11px;
+}
+
 
 }
 
