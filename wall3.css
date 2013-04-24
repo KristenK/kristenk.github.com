@@ -824,7 +824,7 @@ footer2 p {
   border:1px solid #ccc;
   float:left;
   margin:5px 5px;
-  font:normal normal 12px/1.4 Segoe,"Segoe UI",Arial,Sans-Serif;
+  font:normal normal 12px/1.4 Helvetica,"Segoe UI",Arial,Sans-Serif;
   color:#333;
 }
 
@@ -899,6 +899,7 @@ figure {
 }
 figcaption {
   position: absolute;
+  font-family: 'helvetica', sans-serif;
   background: black;
   background: rgba(0,0,0,0.75);
   color: white;
