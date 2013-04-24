@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Plagiarism</title>
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Inika' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="lib.css">
+</head>
+<body>
+
+<header>
+<h1>Plagiarism</h1>
+<h2>Proper Citations and Academic Integrity</h2>
+</header>
+
+
+<nav>
+    <ul>
+        <li><a href="#">Types of Plagiarism</a></li>
+        <li><a href="#">Citations</a></li>
+        <li><a href="#">Honor Code</a></li>
+<li><a href="#">Test Your Knowledge</a></li>
+<li><a href="#">Library</a></li>
+    </ul>
+</nav>
+
+<div id="content">
+
+<p>When writing a paper committing plagiarism is a major offense. You might feel the need to plagiarize if you are feeling stressed about completing your assignment, feel you don’t understand or know enough about your topic, or you may plagiarize by accident because you were not aware how to properly cite your sources or what information needs to be cited. In this tutorial we will be focusing on avoiding plagiarism through the use of proper citations. </p>
+
+<h2>What is Plagiarism?</h2>
+
+<p>The dictionary definition of plagiarism is:</p> 
+<ul>
+
+<li>an act or instance of using or closely imitating the language and thoughts of another author without authorization and the representation of that author's work as one's own, as by not crediting the original author<sup>1</sup></li>
+</ul> 
+
+<p>In short, plagiarism is claiming other people’s ideas and words as yours. When you neglect to cite your sources, knowingly or unknowing, you are committing plagiarism. Commiting plagiarism is a viloation of the George Mason University Honor codes, and has serious consequences. </p>
+
+
+<h2>How can you avoid plagiarism?</h2>
+
+<p>A citation is a note that alerts the reader that particular information in your paper came from another source. A citation includes information about that source including, who wrote it, what type of source it is, and when it was published. A complete citation should allow the reader to find that source if they want.</p>
+
+<p>Information that needs to be cited includes:</p>
+
+<ul>
+<li>Direct quotations</li>
+<li>Paraphrased content</li>
+<li>Ideas or arguments made by someone else that you use to support your own argument</li>
+</ul>
+
+</div>
+
+<footer>
+    <p>This tutorial was created by Kristen Korfitzen for George Mason University Library 2013.</p>
+</footer>
+</body>
+</html>
