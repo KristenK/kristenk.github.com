@@ -55,7 +55,7 @@ body {
 background-color:white;
 padding:0px;
 font-family: helvetica;
-font-weight:lighter;
+
 
 
 
@@ -291,6 +291,7 @@ header h2 {
 	text-align: right;
 	margin-top: 0px;
 	color:#666666;
+	padding:0px;
 }
 
 h1 {
@@ -312,6 +313,7 @@ h2 {
 #content {
 	letter-spacing: 1px;
 	line-height: 1.5em;
+	padding-top:20px;
 }
 
 blockquote {
@@ -325,6 +327,11 @@ position: relative;
 color:black;
 }
 
+#types blockquote {
+	padding-top:25px;
+padding-bottom:20px;
+}
+
 
 blockquote:before {
 display: block;
@@ -334,6 +341,10 @@ position: absolute;
 left: 8px;
 top: -20px;
 color: #7a7a7a;
+}
+
+#types blockquote:before {
+	padding-top:18px;
 }
 
 ul {
@@ -353,6 +364,23 @@ margin-left:auto;
 	font-size:14px;
 }
 
+#types h2 {
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold;
+	font-family: "helvetica", sans-serif;
+
+}
+
+#types p {
+	padding:0px;
+	padding-right:5px;
+	margin-left:25px;
+}
+
+p1 {
+	padding:20px;
+}
 
 
 nav a:link {
@@ -376,6 +404,31 @@ text-decoration:none;
 }   
 
 nav a:active {
+color:#64908A;
+text-decoration:none;
+} 
+
+ a:link {
+color:#64908A;
+text-decoration:none;
+}    
+
+ a:visited {
+color:#64908A;
+text-decoration:none;
+} 
+ 
+ a:hover {
+color:#68029d;
+text-decoration:none;
+ -webkit-transition:  color 0.2s ease-in-out;
+	-moz-transition:  color 0.2s ease-in-out;
+	-o-transition:  color 0.2s ease-in-out;
+	-ms-transition:  color 0.2s ease-in-out;
+	transition:  color 0.2s ease-in-out;
+}   
+
+ a:active {
 color:#64908A;
 text-decoration:none;
 } 
