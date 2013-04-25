@@ -186,6 +186,16 @@ text-decoration:none;
 	clear:both;
 }
 
+#footnote {
+	border-top: solid 1px red;
+	padding: 5px;
+	padding-top:10px;
+}
+
+#footnote p {
+	padding:15px;
+}
+
 /*-----------------------------------------------CONTENT/TEXT------------------------------------------*/
 
 
