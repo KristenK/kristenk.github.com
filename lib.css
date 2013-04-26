@@ -3,15 +3,6 @@
  */
 @media screen {
 	
-	
-	@font-face{ 
-	font-family: 'SofiaProLight';
-	src: url('kristenk/fonts/SofiaProLight.eot');
-	src: url('kristenk/fonts/SofiaProLight.eot?#iefix') format('embedded-opentype'),
-	     url('kristenk/fonts/SofiaProLight.woff') format('woff'),
-	     url('kristenk/fonts/SofiaProLight.ttf') format('truetype'),
-	     url('kristenk/fonts/SofiaProLight.svg#webfont') format('svg');
-}
 
 header {
 
@@ -174,7 +165,7 @@ nav li {
 
 header h1 {
 	font-size: 60px;
-	font-family: 'Unica One', cursive;
+	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 }
 
