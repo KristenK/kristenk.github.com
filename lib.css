@@ -6,11 +6,11 @@
 	
 	@font-face{ 
 	font-family: 'SofiaProLight';
-	src: url('fonts/SofiaProLight.eot');
-	src: url('fonts/SofiaProLight.eot?#iefix') format('embedded-opentype'),
-	     url('fonts/SofiaProLight.woff') format('woff'),
-	     url('fonts/SofiaProLight.ttf') format('truetype'),
-	     url('fonts/SofiaProLight.svg#webfont') format('svg');
+	src: url('krisetnk/fonts/SofiaProLight.eot');
+	src: url('krisetnk/fonts/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+	     url('krisetnk/fonts/SofiaProLight.woff') format('woff'),
+	     url('krisetnk/fonts/SofiaProLight.ttf') format('truetype'),
+	     url('krisetnk/fonts/SofiaProLight.svg#webfont') format('svg');
 }
 
 header {
