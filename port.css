@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+   /*
+
+   selector {
+       property: value;
+       property: value;
+   }
+
+   */
+
+
+   html {
+       background-color: white;
+   
+      
+   }
+
+
+   body {
+       font-family: helvetica, sans-serif;
+       font-weight:lighter;
+       color: #000000;
+       width: 90%;
+     height:90%;
+       margin: 20px auto;
+       text-align: justify;
+       background-color: #ffffff;
+       padding: 20px;
+      border-width: 1px;
+      border color: black;
+       
+      
+   }
+   
+   header {
+	   float:left;
+	   width: 40%;
+	   text-align: left;
+   }
+   
+nav {
+float:right;
+width:20%;
+text-align:right;
+
+}
+
+nav ul {
+list-style: none;
+padding-left: 0;
+margin-left: 0;
+margin-right: 0;
+width:100%;
+}
+
+
+nav li {
+	font-size:20px;
+	text-align: right;
+	font-weight: lighter;
+	padding:4px;
+
+
+
+}
+   
+   .clear {
+	   clear:both;
+   }
+   
+   #header {
+	   width:75%;
+	   margin:auto;
+	   padding:15px;
+   }
+   
+   
+   #text {
+	   width:75%;
+	   border-top: solid 2px #001966;
+	   margin:auto;
+	   padding-top:5px;
+	   margin-top:60px;
+	   padding-bottom:35px;
+   }
+   
+   footer {
+	   width:75%;
+	   border-top: solid 5px #001966;
+	   margin: auto;
+	   padding-top:10px;
+   }
+   
+#primary {
+    float: left;
+    width: 25%;
+	padding-top:0px;
+	padding-left:5px;
+	margin-top:0px;
+	overflow:hidden;
+}
+
+#primary p {
+	font-size:12px;
+}
+
+#content {
+    float: left;
+    width: 25%;
+	border-right: solid 2px #001966;
+	border-left: solid 2px #001966;
+	padding-top:0px;
+	padding-left:15px;
+	overflow:hidden;
+	margin-top:0px;
+}
+
+#secondary {
+    float: left;
+    width: 40%;
+	padding-top:0px;
+	margin-top:0px;
+	padding-left:15px;
+	overflow:hidden;
+}
+
+#foot {
+	padding-top:10px;
+}
+	
+
+
+   h1 {
+       color: #001966;
+       letter-spacing: 1px; 
+       text-transform: uppercase;
+       font-family: 'Noto Sans', sans-serif;
+	   font-weight:lighter;
+       margin-bottom:-10px;
+   }
+
+   h2 {
+       color: #001966;
+       text-transform: uppercase;
+	   font-family: 'Noto Sans', sans-serif;
+	   font-weight:lighter;
+       word-spacing: 3px;
+       letter-spacing: 2px;
+       margin-top: 30px;
+       margin-bottom:-12px;
+   }
+
+   h4 {
+       color: #000000;
+       font-family: futura, helvetica neue;
+      
+   }
+
+   a:link { 
+       color: #7D764A;
+       text-decoration:none;
+   }
+   a:hover { 
+           color: #8F0417;
+           text-decoration:none; 
+		   -webkit-transition:  color 0.2s ease-in-out;
+	-moz-transition:  color 0.2s ease-in-out;
+	-o-transition:  color 0.2s ease-in-out;
+	-ms-transition:  color 0.2s ease-in-out;
+	transition:  color 0.2s ease-in-out;
+   }
+   a:active { 
+           color: #7D764A;
+           text-decoration:none; 
+
+   }
+   a:visited { 
+            color: #7D764A; 
+            text-decoration:none;
+   }   
+
+
+
+
+
+
