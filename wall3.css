@@ -910,7 +910,7 @@ figure {
 figcaption {
   position: absolute;
   font-family: 'helvetica', sans-serif;
-  font-size:10px;
+  font-size:12px;
   background: black;
   background: rgba(0,0,0,0.75);
   color: white;
