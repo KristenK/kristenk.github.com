@@ -196,6 +196,12 @@ text-decoration:none;
 	padding:15px;
 }
 
+::selection {
+background: #c50101;
+color: #fff;
+}
+
+
 /*-----------------------------------------------CONTENT/TEXT------------------------------------------*/
 
 
