@@ -28,7 +28,24 @@
 				}
 			</style>
 
-	
+	<script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+</script>
      
          
 
@@ -177,7 +194,7 @@
 </div>
 </div>
 
-<up><a href="http://kristenk.github.com/moma.html">↑</a></up>
+<up><a href="#" class="scrollup">↑</a></up>
 <p></p>
 <footer2 id class="clear">
 <p>This website is the work of Kristen Korfitzen, MA Student at George Mason University. It was created as the final project for HIST 697. This website does not claim to own any of the images used on site.</p>
