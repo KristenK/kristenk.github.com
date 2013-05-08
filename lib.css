@@ -462,6 +462,11 @@ float:right;
 	
 }
 
+::selection {
+background: #7c087a;
+color: #fff;
+}
+
 
 }
 
