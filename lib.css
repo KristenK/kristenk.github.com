@@ -3,6 +3,8 @@
  */
 @media screen {
 	
+	
+	
 
 header {
 
@@ -21,7 +23,7 @@ h2 {
 }
 
 h1 {
-	font-family: 'Signika', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	color: #2C3297;
 	letter-spacing: 1px;
 }
@@ -229,13 +231,12 @@ width:70%;
 text-align:justify;
 padding: 5px;
 margin-left:-5px;
+letter-spacing: 1px;
+	line-height: 1.5em;
+	padding-top:20px;
 
 }
 
-footer {
-clear:both;
-padding:10px;
-}
 
 body {
 	width: 80%;
@@ -304,14 +305,6 @@ h2 {
       text-align: left;
 	  color:#8006bf;
 	  padding:10px;
-}
-
-
-
-#content {
-	letter-spacing: 1px;
-	line-height: 1.5em;
-	padding-top:20px;
 }
 
 blockquote {
@@ -442,6 +435,17 @@ border-top: solid 1px black;
 
 }
 
+#footnote p {
+padding: 10px;
+margin-top: 0px;
+margin-bottom:0px;
+font-size: 11px;
+float:right;
+}
+
+.clear {
+	clear:both;
+}
 
 
 }
