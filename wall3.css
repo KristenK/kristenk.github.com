@@ -582,7 +582,7 @@ background-color: #FFFFFF;
 
 }
 
-.location {
+.location li {
 	font-size:25px;
 	font-weight: bold;
 }
