@@ -8,8 +8,28 @@
 <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet" type="text/css">
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="lib.css">
+    
+    <script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+</script>
  
 
 
@@ -24,11 +44,11 @@
 
 <nav>
     <ul>
-         <li><a href="http://kristenk.github.io/types.html">Types of Plagiarism</a></li>
-        <li><a href="http://kristenk.github.com/citation.html">Citations</a></li>
+        <li><a href="#">Types of Plagiarism</a></li>
+        <li><a href="#">Citations</a></li>
         <li><a href="#">Honor Code</a></li>
-<li><a href="http://kristenk.github.io/test.html">Test Your Knowledge</a></li>
-<li><a href="http://library.gmu.edu">Library</a></li>
+<li><a href="#">Test Your Knowledge</a></li>
+<li><a href="#">Library</a></li>
     </ul>
 </nav>
 
@@ -59,10 +79,12 @@
 <p>Provides correct citations but relies to heavily on the original text’s wording and structure</p>
 
 
-</div>
-
 
 </div>
+<a href="#" class="scrollup">Scroll</a>
+
+</div>
+
 
 <footer id class="clear">
     <p>This tutorial was created by Kristen Korfitzen for George Mason University Library 2013.</p>
