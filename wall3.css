@@ -201,6 +201,9 @@ background: #c50101;
 color: #fff;
 }
 
+.scrollup {
+	display:none;
+}
 
 /*-----------------------------------------------CONTENT/TEXT------------------------------------------*/
 
@@ -582,11 +585,6 @@ background-color: #FFFFFF;
 
 }
 
-.location li {
-	font-size:25px;
-	font-weight: bold;
-}
-
 
 
 /*-----------------------------------------------CONTENT/TEXT------------------------------------------*/
@@ -657,9 +655,6 @@ text-decoration:none;
 color:red;
 text-decoration:none;
 } 
-
-
-/*EXPANDING CONTENT*/
 
 
 
