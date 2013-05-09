@@ -8,6 +8,16 @@
    }
 
    */
+   
+   
+   @font-face{ 
+	font-family: 'Corbert-Regular-webfont';
+	src: url('Corbert-Regular-webfont.eot');
+	src: url('Corbert-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('Corbert-Regular-webfont.woff') format('woff'),
+	     url('Corbert-Regular-webfont.ttf') format('truetype'),
+	     url('Corbert-Regular-webfont.svg#webfont') format('svg');
+}
 
 
    html {
@@ -18,31 +28,28 @@
 
 
    body {
-       font-family: helvetica, sans-serif;
-       font-weight:lighter;
        color: #000000;
-       width: 90%;
-     height:90%;
+       width: 75%;
        margin: 20px auto;
        text-align: justify;
        background-color: #ffffff;
        padding: 20px;
-      border-width: 1px;
-      border color: black;
        
       
    }
    
-   header {
-	   float:left;
-	   width: 40%;
-	   text-align: left;
+   p {
+	   font-size:14px;
+	   line-height:1.4em;
+	   font-family: "helvetica", sans-serif;
+	   font-weight:lighter;
+	   word-spacing:.25;
    }
    
+ 
 nav {
-float:right;
-width:20%;
-text-align:right;
+float:left;
+width:25%;
 
 }
 
@@ -51,15 +58,14 @@ list-style: none;
 padding-left: 0;
 margin-left: 0;
 margin-right: 0;
-width:100%;
 }
 
 
 nav li {
-	font-size:20px;
-	text-align: right;
-	font-weight: lighter;
-	padding:4px;
+	font-size:18px;
+	font-weight: bold;
+	padding:14px;
+	font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
 
 
 
@@ -69,25 +75,35 @@ nav li {
 	   clear:both;
    }
    
-   #header {
-	   width:75%;
-	   margin:auto;
+   header {
 	   padding:15px;
+	   border-bottom: solid 2px #ceced1;
    }
    
+   
+
+     header h2 {
+	   padding:0px;
+	   font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	   font-size:50px;
+	   color:#1220dc;
+	   text-transform:capitalize;
+	   margin-bottom:-5px;
+	   margin-left:-15px;
+	   
+   }
    
    #text {
-	   width:75%;
-	   border-top: solid 2px #001966;
-	   margin:auto;
+	   width:70%;
 	   padding-top:5px;
-	   margin-top:60px;
 	   padding-bottom:35px;
+	   float:right;
    }
    
+  
    footer {
-	   width:75%;
-	   border-top: solid 5px #001966;
+	   width:100%;
+	   border-top: solid 5px #ceced1;
 	   margin: auto;
 	   padding-top:10px;
    }
@@ -108,12 +124,16 @@ nav li {
 #content {
     float: left;
     width: 25%;
-	border-right: solid 2px #001966;
-	border-left: solid 2px #001966;
+	border-right: solid 2px #ceced1;
+	border-left: solid 2px #ceced1;
 	padding-top:0px;
 	padding-left:15px;
 	overflow:hidden;
 	margin-top:0px;
+}
+
+#content p {
+	font-size:12px
 }
 
 #secondary {
@@ -125,6 +145,10 @@ nav li {
 	overflow:hidden;
 }
 
+#secondary p {
+	font-size:12px;
+}
+
 #foot {
 	padding-top:10px;
 }
@@ -134,26 +158,26 @@ nav li {
    h1 {
        color: #001966;
        letter-spacing: 1px; 
-       text-transform: uppercase;
-       font-family: 'Noto Sans', sans-serif;
+       font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	   text-transform:capitalize;
 	   font-weight:lighter;
        margin-bottom:-10px;
    }
 
    h2 {
-       color: #001966;
-       text-transform: uppercase;
-	   font-family: 'Noto Sans', sans-serif;
-	   font-weight:lighter;
+       color: #1220dc;
+ 	   font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	  text-transform:capitalize;
        word-spacing: 3px;
        letter-spacing: 2px;
        margin-top: 30px;
-       margin-bottom:-12px;
+       
    }
 
    h4 {
        color: #000000;
-       font-family: futura, helvetica neue;
+       font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	   text-transform:capitalize;
       
    }
 
@@ -179,9 +203,41 @@ nav li {
             color: #7D764A; 
             text-decoration:none;
    }   
+   
+ #menu ul {
+	font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 12px 0;
+	text-align: center;
+}
 
+#menu ul li {
+	color: #7D764A;
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 12px 0;
+	text-transform: uppercase;
+}
 
+#menu {
+	background: white;
+	display: none;
+	width: 100%;
+}
 
+#bar {
+	background:white;
+	width: 100%;
+}
 
-
-
+#bar h1 {
+	font-family: 'Corbert-Regular-webfont', Helvetica, sans-serif;
+	font-size: 15px;
+	font-style: bold;
+	letter-spacing: 4px;
+	margin: 0;
+	padding: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
