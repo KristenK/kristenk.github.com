@@ -70,7 +70,7 @@ h4 {
 	#header {
 		padding: 10px;
 		padding-bottom: 10px;
-		width:90%;
+		width:100%;
 		margin:auto;
 
 	}
@@ -113,7 +113,7 @@ h4 {
 
 #header .nav {
 text-align: center;
-width: 90%;
+width: 100%;
 background-color: #FFFFFF;
 
 
@@ -214,7 +214,7 @@ padding: 20px;
 padding-top: 20px;
 letter-spacing: 1px;
 	line-height: 1.2em;
-	width: 90%;
+	width: 100%;
 
 }
 
