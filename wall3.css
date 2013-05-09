@@ -18,22 +18,11 @@
 
 p {
 	font-family: 'helvetica', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	padding: 5px;
 	text-align:left;
 	letter-spacing: .5px;
-	line-height: 1.2em;
-
-}
-	
-
-p1 {
-	font-family: 'helvetica', sans-serif;
-	font-size: 14px;
-	padding: 5px;
-	text-align:justify;
-	letter-spacing: .5px;
-	line-height: 1.2em;
+	line-height: 1.5em;
 
 }
 
@@ -81,7 +70,7 @@ h4 {
 	#header {
 		padding: 10px;
 		padding-bottom: 10px;
-		width:100%;
+		width:90%;
 		margin:auto;
 
 	}
@@ -124,7 +113,7 @@ h4 {
 
 #header .nav {
 text-align: center;
-width: 100%;
+width: 90%;
 background-color: #FFFFFF;
 
 
@@ -213,8 +202,8 @@ color: #fff;
 #content {
 	width:100%;
 	letter-spacing: .5px;
-	line-height: 1em;
-	margin-left:-5px;
+	line-height: 1.5em;
+	margin-left:2px;
 	padding-left:0px;
 }
 
@@ -234,9 +223,11 @@ letter-spacing: 1px;
 }
 
 #img {
-	width: 90%;
+	width: 80%;
 	padding-top: 30px;
-	padding-left: -10px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 #img img {
@@ -249,7 +240,7 @@ letter-spacing: 1px;
 #content2 {
 padding: 5px;
 padding-top: 20px;
-	width: 900%;
+	width: 100%;
 
 }
 
@@ -272,9 +263,6 @@ text-decoration:none;
 color:red;
 text-decoration:none;
 } 
-
-
-/*EXPANDING CONTENT*/
 
 
 
@@ -339,6 +327,51 @@ padding: 0px;
 margin-top: 0px;
 margin-bottom:0px;
 font-size: 11px;
+}
+
+/*-------------------QUOTES-------------------*/
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 14px;
+font-style: italic;
+width: 70%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: red;
+}
+
+.quote {
+font-family: Georgia, serif;
+font-size: 13px;
+font-style: italic;
+width: 70%;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.5;
+position: relative;
+color: red;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 10px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
+
+figcaption {
+  font-family: 'helvetica', sans-serif;
+  font-size:10px;
+  text-align:left;
+  font-weight:bold;
 }
 
 }
@@ -488,11 +521,7 @@ letter-spacing: 1px;
 	padding-bottom: 5px;
 }
 
-#img {
-	width: 90%;
-	padding-top: 30px;
-	padding-left: -10px;
-}
+
 
 #img img {
 	padding-bottom:20px;
@@ -528,9 +557,15 @@ color:red;
 text-decoration:none;
 } 
 
+p {
+	font-family: 'helvetica', sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	text-align:left;
+	letter-spacing: .5px;
+	line-height: 1.3em;
 
-/*EXPANDING CONTENT*/
-
+}
 
 
 #biddle {
@@ -917,6 +952,7 @@ figcaption {
   position: absolute;
   font-family: 'helvetica', sans-serif;
   font-size:12px;
+  font-weight:normal;
   background: black;
   background: rgba(0,0,0,0.75);
   color: white;
