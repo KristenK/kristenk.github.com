@@ -4,30 +4,31 @@
    <meta charset="utf-8">
    <title>Test Page</title>
    <link rel="stylesheet" href="port.css">
-   <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-
+   <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   
 </head>
 <body>
-<div id="header">
-<header>
-<h1> Kristen Korfitzen</h1>
-<h4> Digitial Design Portfolio</h4>
-</header>
 
+<header>
+<h2>Kristen Korfitzen</h2>
+</header>
 <nav>
-<ul>
-  <li><a href="http://kristenk.github.io/designrational.pdf">Design Rational</a></li>
+   <div id="menu">
+		<ul>
+			<li><a href="http://kristenk.github.io/designrational.pdf">Design Rational</a></li>
   <li><a href="http://kristenk.github.io/responsive_design.html">Responsive Design</a></li>
   <li><a href="http://kristenk.github.io/writingonthewall.html">Final Project</a></li>
-</ul>
-</nav>
-</div>
-<p id class="clear"></p>
+		</ul>
+	</div>
+	
+	<div id="bar">
+		<a href="#"><h1>Menu</h1></a>
+	</div>
+ </nav>    
+
 
 <div id="text">
-<h2 id class="clear">the project</h2>
-<p>This is the work-in-progress portfolio page for Kristen Korfitzen (me). Eventually there will be links to web content I have designed. Hopefully, by the end of the semester this page will look a lot more professional and aesthetically pleasing. At the moment, I’m just excited I managed to change the link colors.</p>
 
 <h2>the girl</h2>
 <p>I’m in my second year of the MA Art History program at George Mason University. I’m about to begin writing my thesis on the interactions between Mexican and American muralist in the 1930s, and how the relationship between the two countries/movements affected federal policy regulating the Mural Division of the Works Progress Administration (WPA).</p>
@@ -41,7 +42,7 @@
    <li>Kittens</li>
 </ul>
 </div>
-<footer>
+<footer id class="clear">
 <div id="foot">
 <div id="primary">
 <h4>Contact</h4>
@@ -64,7 +65,14 @@
 
 </footer>
 
-
+<script>
+		$(document).ready(function(){
+			$("#bar a").click(function(){ 
+        event.preventDefault();
+				$("#menu").slideToggle("slow");
+			});
+		});
+    </script>
 
 
 </body>
