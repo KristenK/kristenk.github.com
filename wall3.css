@@ -662,6 +662,10 @@ letter-spacing: 1px;
 	max-width: 100%;
 }
 
+#image-slideshow img {
+	max-width:100%;
+}
+
 /*ONE COLLUM LAYOUT*/
 
 #content2 {
