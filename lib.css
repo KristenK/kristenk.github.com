@@ -17,7 +17,7 @@ padding:10px;
 
 
 h2 {
-	font-family: 'Signika', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	color: #666666;
 	letter-spacing: 1px;
 }
@@ -29,7 +29,7 @@ h1 {
 }
 
 h3 {
-	font-family: 'Signika', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	color: #64908A;
 	letter-spacing: 1px;
 }
@@ -308,7 +308,7 @@ border-bottom: solid 1px black;
 
 header h1 {
           text-align: right;
-		  font-family: 'Quicksand', sans-serif;
+		  font-family: 'Merriweather Sans', sans-serif;
 		  color:#8006bf;
 		  margin-bottom:0px;
 		  font-size: 60px;
@@ -320,7 +320,8 @@ header h2 {
 	margin-top: 0px;
 	color:#666666;
 	padding:0px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Helvetica', sans-serif;
+	font-weight:lighter;
 	
 }
 
@@ -328,8 +329,7 @@ h1 {
 	
      text-align: left;
 	 color:#8006bf;
-	 font-family: 'Quicksand', sans-serif;
-	 
+	 font-family: 'Merriweather Sans', sans-serif;
 	
 	
 }
@@ -338,8 +338,7 @@ h2 {
       text-align: left;
 	  color:#8006bf;
 	  padding:10px;
-	  font-family: 'Quicksand', sans-serif;
-	  
+	  font-family: 'Merriweather Sans', sans-serif;
 }
 
 blockquote {
@@ -465,7 +464,8 @@ background-color: white;
 color:#351330;
 padding:15px;
 margin:0;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Helvetica', sans-serif;
+font-weight:lighter;
 text-align: right;
 border-top: solid 1px black;
 
