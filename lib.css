@@ -8,7 +8,7 @@
 
 header {
 
-background-color: #001b74;
+background-color: white;
 padding:10px;
 
 
@@ -83,7 +83,7 @@ blockquote {
 }
 
 blockquote cite {
-color: #999999;
+color: #64908A;
 font-size: 14px;
 display: block;
 margin-top: 5px;
@@ -240,6 +240,32 @@ letter-spacing: 1px;
 
 }
 
+#example {
+	background: rgba(128, 6, 191, .1);
+	width:90%;
+	padding:10px;
+	
+}
+
+#example h3 {
+    position:relative;
+    color:#fff;
+	float:left;
+    clear:both;
+    background:#619f96;
+    font-size:1.5em;
+    padding:10px 10px 10px 20px;
+    margin-left:-20px;
+    margin-bottom:20px;
+    text-shadow:0 -1px #3c7068, 0 1px #3c7068;
+
+    -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+}
+
+
 
 body {
 	width: 80%;
@@ -261,10 +287,9 @@ width:100%;
 
 
 nav li {
-	font-family: 'Signika', sans-serif;
+	font-family: 'Signika', sans-serif;;
 	font-size:20px;
 	text-align: left;
-	font-weight: lighter;
 	padding:0;
 	
 
@@ -283,10 +308,11 @@ border-bottom: solid 1px black;
 
 header h1 {
           text-align: right;
-		  font-family: 'Merriweather Sans', sans-serif;
+		  font-family: 'Quicksand', sans-serif;
 		  color:#8006bf;
 		  margin-bottom:0px;
 		  font-size: 60px;
+		  
 }
 
 header h2 {
@@ -294,12 +320,16 @@ header h2 {
 	margin-top: 0px;
 	color:#666666;
 	padding:0px;
+	font-family: 'Quicksand', sans-serif;;
+	font-weight:lighter;
 }
 
 h1 {
 	
      text-align: left;
 	 color:#8006bf;
+	 font-family: 'Quicksand', sans-serif;;
+	 font-weight:lighter;
 	
 	
 }
@@ -308,6 +338,8 @@ h2 {
       text-align: left;
 	  color:#8006bf;
 	  padding:10px;
+	  font-family: 'Quicksand', sans-serif;
+	  font-weight:lighter;
 }
 
 blockquote {
@@ -318,6 +350,7 @@ margin: 0.25em 0;
 padding: 0.25em 40px;
 line-height: 1.45;
 position: relative;
+margin:auto;
 color:black;
 }
 
@@ -334,7 +367,7 @@ font-size: 80px;
 position: absolute;
 left: 8px;
 top: -20px;
-color: #7a7a7a;
+color:#64908A;
 }
 
 #types blockquote:before {
@@ -432,7 +465,8 @@ background-color: white;
 color:#351330;
 padding:15px;
 margin:0;
-font-family: 'Signika', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-weight:lighter;
 text-align: right;
 border-top: solid 1px black;
 
@@ -458,13 +492,8 @@ float:right;
     bottom:150px;
     left:300px;
     text-indent:-9000px;
-    background: url('http://i1311.photobucket.com/albums/s662/kkorfitz/up_zps5bef3596.png') no-repeat;
+    background: url('up.png') no-repeat;
 	
-}
-
-::selection {
-background: #7c087a;
-color: #fff;
 }
 
 
