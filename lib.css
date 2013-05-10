@@ -321,7 +321,7 @@ header h2 {
 	color:#666666;
 	padding:0px;
 	font-family: 'Quicksand', sans-serif;
-	font-weight:lighter;
+	
 }
 
 h1 {
@@ -329,7 +329,7 @@ h1 {
      text-align: left;
 	 color:#8006bf;
 	 font-family: 'Quicksand', sans-serif;
-	 font-weight:lighter;
+	 
 	
 	
 }
@@ -339,7 +339,7 @@ h2 {
 	  color:#8006bf;
 	  padding:10px;
 	  font-family: 'Quicksand', sans-serif;
-	  font-weight:lighter;
+	  
 }
 
 blockquote {
@@ -466,7 +466,6 @@ color:#351330;
 padding:15px;
 margin:0;
 font-family: 'Quicksand', sans-serif;
-font-weight:lighter;
 text-align: right;
 border-top: solid 1px black;
 
