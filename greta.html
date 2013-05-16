@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<link rel="stylesheet" href="menu.css">
+<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+<script src="classie.js"></script>
+
+</head>
+
+
+<body>
+
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h3>Menu</h3>
+    <a href="#">Celery seakale</a>
+    <a href="#">Dulse daikon</a>
+    <a href="#">Zucchini garlic</a>
+    <a href="#">Catsear azuki bean</a>
+    <a href="#">Dandelion bunya</a>
+    <a href="#">Rutabaga</a>
+</nav>
+
+
+<div class="container">
+    <div class="main">
+        <section>
+            <h1>Greta Kuriger Suiter</h1>
+            <!-- Class "cbp-spmenu-open" gets applied to menu -->
+            <button id="showLeft">→</button>
+        </section>
+        <h3>hello</h3>
+        <p id class="shadow">Hello World! I am a Master’s of Library and Information Science graduate (2010) currently working in a Special Collections and Archives at George Mason University and working on a second degree in Art History. I have direct experience processing collections, creating finding aids, digitizing collections and adding metadata to digital objects, creating catalog records, and assisting patrons with research requests. I am passionate about libraries, archives, art history, and connecting people with information.</p>
+        <h3>Skills</h3>
+        <p id class="shadow">
+
+XML encoding standards; EAD, DACS, and Dublin Core description standards; Archivists’ Toolkit; NotetabPro; WordPress; Omeka; Viewshare; Microsoft Office; Prezi; processing multi-format collections; collaboration; reference services; social media; exhibit creation and installation</p>
+    </div>
+</div>
+<footer>
+<div id="foot">
+<div id="primary">
+<h4>Info</h4>
+        <p>This website was created by Kristen Korfitzen, May 2013.</p>
+    </div>
+    
+    <div id="content">
+    <h4>Blogroll</h4>
+        <p>GMU AHGA</p>
+<p>Vault217</p>
+    </div>
+    
+    <div id="secondary">
+    <h4>Social Media</h4>
+        
+        <p>LinkedIn</p>
+        <p>Pinterest</p>
+        <p>Twitter</p>
+ 
+    </div>
+    <p id class="clear"></p>
+    </div>
+
+</footer>
+<script>
+
+var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+        showLeft = document.getElementById( 'showLeft' ),
+        body = document.body;
+ 
+showLeft.onclick = function() {
+    classie.toggle( this, 'active' );
+    classie.toggle( menuLeft, 'cbp-spmenu-open' );
+    disableOther( 'showLeft' );
+};
+ 
+function disableOther( button ) {
+    if( button !== 'showLeft' ) {
+        classie.toggle( showLeft, 'disabled' );
+    }
+    
+}
+</script>
+
+
+</body>
+</html>
