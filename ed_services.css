@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header_tutorials {
+	font-size:24px;
+	color:#333;
+	padding-bottom:2px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	text-shadow: 1px 1px #CCC;
+}
+
+.nav_back { float: right;
+font-size:12px;}
+
+
+
+.container_tutorials
+{
+	width:1000px;
+	overflow:hidden;
+	border:1px #999;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 15px;	
+}
+
+
+.content {
+	width:auto;
+	padding:5px;
+	float:none;
+}
+.content2 {
+	width:800px;
+	padding:5px;
+	float:left;	
+
+}
+.column1-1-1 {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+}
+
+.content_workshops {
+	width:900px;
+	
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+
+.content3 {
+	width:800px;
+	padding:5px;
+	
+	
+
+}
+
+#iframe {
+	overflow: visible;
+}
+
+
+.tutorial_menu_left
+
+{width:180px;
+float:left;
+font-size:12px;}
+
+
+.tutorial_menu_nav{
+	font-size: 13px;
+	font-weight:bold;
+	color: #333;
+
+}
+
+.tutorial_menu_nav  a:visited {
+	color:#006633;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+img.rooms
+{
+	float:right;
+	margin:10px;
+	border: 1px solid #333333;
+	padding: 0px;
+}
+
+
+#content-right.second-level {
+    width: 198px;
+    float: left;
+    margin-left: 31px;
+}
+.widget-box-outer {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #acacac;
+    margin-bottom: 15px;
+}
+.widget-box-inner {
+    padding: 5px;
+    border: 1px solid #acacac;
+    background: #ebebeb;
+}
+
+/*headers*/
+h4.subhead {
+	font-size:16px;
+	color:#333333;
+	font-family: Georgia, serif;}
+	
